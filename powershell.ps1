@@ -38,8 +38,6 @@ Import-Module posh-git
 $global:GitPromptSettings.BeforeText = '['
 $global:GitPromptSettings.AfterText  = '] '
 
-Import-Module -Name posh-git
-
 Import-Module Get-ChildItemColor
 
 Set-Alias l Get-ChildItemColor -option AllScope
